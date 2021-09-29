@@ -1,7 +1,7 @@
 #The following codes and functions are used to create a program that stores and 
 #caches a matrix and its inverse. 
 #The first function is called makeCacheMatrix and it creates a unique matrix
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(t = matrix()) {
   p <- NULL
   set <- function(b) {
     t <<- b
